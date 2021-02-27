@@ -66,7 +66,7 @@ contract DODOCirculationHelper is InitializableOwnable {
         ratio = geRatioValue(x);
     }
 
-    function geRatioValue(uint256 input) public view returns (uint256) {
+    function getRatioValue(uint256 input) public view returns (uint256) {
         
         // y = 15% (x < 0.1)
         // y = 5% (x > 0.5)
